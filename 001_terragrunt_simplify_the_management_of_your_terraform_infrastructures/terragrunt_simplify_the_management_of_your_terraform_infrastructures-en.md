@@ -49,7 +49,7 @@ Fortunately for us, [Terragrunt](https://terragrunt.gruntwork.io/) solves these 
 
 Let's take a look at the main advantages of Terragrunt.
 
-<span style="display:block;text-align:center">![](/_images/100_terragrunt_logo.png)</span>
+<span style="display:block;text-align:center">![](/_images/001_terragrunt_logo.png)</span>
 
 ### **File Structure under Terragrunt**
 
@@ -57,7 +57,7 @@ Terragrunt simplifies the management of Terraform configurations for multiple en
 
 We want to provision an application that will use multiple resources ([AppService](https://learn.microsoft.com/en-us/azure/app-service/), [AppService Plan](https://learn.microsoft.com/en-us/azure/app-service/overview-hosting-plans), [Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal), [KeyVault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/basic-concepts), etc.) as well as a [SQL database](https://azure.microsoft.com/en-us/products/azure-sql/database) for persistent data:
 
-<span style="display:block;text-align:center">![](/_images/100_archi.png)</span>
+<span style="display:block;text-align:center">![](/_images/001_archi.png)</span>
 
 We want to deploy this application on a development environment (**dev**), a staging environment (**staging**), and a production environment (**prod**).
 
@@ -68,7 +68,7 @@ We will code 2 Terraform modules in advance:
 
 As an example, we could have this type of file structure on Terraform, where each Terraform file is duplicated per environment, whereas Terragrunt code is simpler to understand and considered DRY:
 
-<span style="display:block;text-align:center">![](/_images/100_dry.png)</span>
+<span style="display:block;text-align:center">![](/_images/001_dry.png)</span>
 
 On the left side of the image, we can see that "classic" Terraform code **must be maintained for each environment**. We have to copy the code three times for both the app and db modules, which is not ideal for maintenance. Additionally, we will need to manage a "backend" block for each environment.
 
@@ -287,7 +287,7 @@ Finally, it should be noted that Terragrunt is not natively supported by Terrafo
 
 Terragrunt remains a very interesting solution, especially in contexts involving many environments. For simple usage on 1 or 2 environments, Terraform alone may suffice.
 
-<span style="display:block;text-align:center">![](/_images/100_yoda.jpg)</span>
+<span style="display:block;text-align:center">![](/_images/001_yoda.jpg)</span>
 
 > _Keep it dry but keep it simple !_
 
