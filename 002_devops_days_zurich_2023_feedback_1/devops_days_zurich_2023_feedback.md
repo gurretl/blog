@@ -36,9 +36,9 @@ By <span class="text-secondary-500">[Lionel Gurret](https://www.linkedin.com/in/
 
 ## Day 1
 
-[DevOpsDays Zurich](https://devopsdays.org/events/2023-zurich/welcome/) is a much-anticipated annual conference that brings together professionals from the DevOps community to share ideas, learn from one another, and explore the latest trends in technology. As an avid attendee of last year's event, we were thrilled to participate in this year's conference, which spanned two days of inspiring talks, informative workshops, and engaging discussions.
+[DevOpsDays Zurich](https://devopsdays.org/events/2023-zurich/welcome/) is a much-anticipated annual conference that brings together professionals from the DevOps community to share ideas, learn from one another, and explore the latest trends in technology. As an avid attendee of last year's event, I was thrilled to participate in this year's conference, which spanned two days of inspiring talks, informative workshops, and engaging discussions.
 
-In this **blog post**, we will be sharing my experience and insights from the conference. It will cover a day of the event, summarizing the talks we attended, highlighting key takeaways, and offering my perspective on the topics covered. Whether you were unable to attend **DevOpsDays Zurich 2023** or simply want to revisit some of the highlights, we hope you'll find these posts informative and engaging.
+In this **blog post**, I will be sharing my experience and insights from the conference. It will cover the event, summarizing the talks I attended, highlighting key takeaways, and offering my perspective on the topics covered. Whether you were unable to attend **DevOpsDays Zurich 2023** or simply want to revisit some of the highlights, I hope you'll find these posts informative and engaging.
 
 So without further ado, `let's dive in`!
 
@@ -302,6 +302,6 @@ By [Marc Herren](https://www.linkedin.com/in/marc-herren-7181b0ab/)- During this
 <span style="display:block;text-align:center">![](/_images/002_elastic.jpeg)</span>
 
 ## Conclusion
-[DevOps Days Zurich 2023](https://devopsdays.org/events/2023-zurich/welcome/) was a great event where we learned a lot and got a glimpse of the latest trends in the industry. It was also a great opportunity to meet with our partners and network with other professionals. 
+[DevOps Days Zurich 2023](https://devopsdays.org/events/2023-zurich/welcome/) was a great event where I learned a lot and got a glimpse of the latest trends in the industry. It was also a great opportunity to meet with our partners and network with other professionals. 
 
-Overall, it was an **enriching experience** and we look forward to attending similar events in the future!
+Overall, it was an **enriching experience** and I look forward to attending similar events in the future!
