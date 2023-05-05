@@ -3,8 +3,7 @@ title: "DevOps Days Zurich 2023 - Feedback"
 # menu_order: 1
 # post_status can be publish, draft, pending, future
 
-#post_status: publish
-post_status: draft
+post_status: publish
 
 # post_excerpt: A WordPress excerpt is basically a summary of a longer article, often used as a replacement on the blog index and archives pages to avoid needing to display the full content of each post. By default, WordPress generates excerpts by simply selecting the first 55 words of a post
 
@@ -32,7 +31,7 @@ comment_status: open
 
 ---
 
-By <span class="text-secondary-500">[Lionel Gurret](https://www.linkedin.com/in/lionel-gurret/) and <span class="text-secondary-500">[Fabrice Vergnenègre](https://www.linkedin.com/in/vergnenegre/)</span>. 
+By <span class="text-secondary-500">[Lionel Gurret](https://www.linkedin.com/in/lionel-gurret/)</span>. 
 
 ## Day 1
 
