@@ -8,7 +8,7 @@ post_status: publish
 # post_excerpt: A WordPress excerpt is basically a summary of a longer article, often used as a replacement on the blog index and archives pages to avoid needing to display the full content of each post. By default, WordPress generates excerpts by simply selecting the first 55 words of a post
 
 # Thumbnail image (or featured imaged): ideal size: 800 * 418: this is the image that appears in summaries and on the internet when you put the link to the article. Note that for these types of images unfortunately LinkedIn does not support the webp format, so you have to stay with a jpg format
-featured_image: /_images/036/003_0_kcd_zh_2023_general.jpg
+featured_image: /_images/036/036_0_kcd_zh_2023_general.jpg
 
 # It is possible to force the creation date of the blog
 # post_date: 2023-01-28 19:00
@@ -41,7 +41,7 @@ The [Kubernetes Community Days](https://www.linkedin.com/company/kubernetes-comm
 
 The first day was dedicated to hands-on workshops where participants could apply their skills and learn from experts. In this article, we will focus on the second day of the Kubernetes Community Days, providing a summary of the different presentations and key takeaways.
 
-<span style="display:block;text-align:center">![](/_images/036/003_event.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_event.webp)</span>
 
 So, without further ado, let's dive in!
 
@@ -50,7 +50,7 @@ So, without further ado, let's dive in!
 #### Summary
 Kubernetes is well-suited for containerized workloads. However, the majority of workloads will remain where they are for some time, running on VMs or physical servers in public or private cloud environments. How can we connect the new world of Kubernetes, consisting of services, identities, and CI/CD, with the existing world of VMs, servers, and network infrastructure? In this session, Thomas Graf explores the brand-new Cilium Mesh layer. Cilium Mesh is a novel universal networking layer that enables connecting workloads and machines across the cloud, on-premises, and edge environments. It includes a Kubernetes network component (CNI), a multi-cluster connectivity plan (Cluster Mesh), and a transit gateway to connect to VMs and servers in existing networks.
 
-<span style="display:block;text-align:center">![](/_images/036/003_cilium_mesh.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_cilium_mesh.webp)</span>
 
 #### Key Takeaways
 - **Cilium Mesh** combines all Cilium components into a single mesh:
@@ -107,13 +107,13 @@ The "Forensic Container Checkpointing" feature in Kubernetes 1.25 allows creatin
 - Native Kubernetes support with scheduler-level integration is eagerly awaited, which will provide the equivalent of V-Motion for stateful containers, similar to VMware's virtual machines.
 
 ### Coffee Break
-<span style="display:block;text-align:center">![](/_images/036/003_coffee.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_coffee.webp)</span>
 
 ### Talk: When Things Get Big: Scaling Cloud Native Workloads and Software Distribution
 #### Speaker(s): [Ricardo Rocha](https://www.linkedin.com/in/ricardo-rocha-739aa718/)
 #### Summary
 The transition to containers has significantly improved the deployment and management of services and workloads in large-scale IT infrastructures. However, it has also introduced new challenges that may require intrusive workflow changes or be hidden in the software stack. This session focuses on one of these challenges and explains in detail how to efficiently distribute very large software packages across thousands of nodes for batch, compute-intensive, or machine learning workloads.
-<span style="display:block;text-align:center">![](/_images/036/003_cern_stargz.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_cern_stargz.webp)</span>
 
 #### Key Takeaways
 - The scale of Kubernetes cluster usage at CERN is mind-boggling:
@@ -155,7 +155,7 @@ eBPF is:
 #### Speaker(s): [Lisa Falco](https://www.linkedin.com/in/lisa-falco-jon)
 #### Summary
 This talk addresses the importance of responsible AI for ethical and inclusive software development. Lisa presents frameworks for the development of ethical and interpretable AI, based on experience in machine learning development in the medical field. The principles of responsible AI can be extended to software development in general to ensure a more inclusive and beneficial approach to society and minimize negative consequences.
-<span style="display:block;text-align:center">![](/_images/036/003_responsible_ai.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_responsible_ai.webp)</span>
 
 #### Key Takeaways
 - A comprehensive framework applied at Zuhlke for real governance of AI projects and applications focused on:
@@ -179,7 +179,7 @@ Different lessons learned by Annie Talvasto:
 - Self-belief
 
 ### Lunch
-![Lunch](/_images/036/003_lunch.webp)
+![Lunch](/_images/036/036_lunch.webp)
 
 ### Talk: Buzzing Across the Cloud Native Landscape with eBPF
 #### Speaker(s): [Bill Mulligan](https://www.linkedin.com/in/bamulligan/)
@@ -229,7 +229,7 @@ In this presentation, [Julius Volz](https://www.linkedin.com/in/julius-volz/), c
     - To prevent the accumulation of almost empty buckets over time, a mechanism for resetting buckets (based on time intervals or a maximum number of buckets) is included in the instrumentation libraries (currently only for Golang).
 - Finally! After years of waiting, we have an implementation close to HDR Histograms that properly captures and characterizes latency information. It's finally here!
 
-<span style="display:block;text-align:center">![](/_images/036/003_prom_native_histograms.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_prom_native_histograms.webp)</span>
 
 
 ### Talk: Tales of Serverless - a story about building scalable applications
@@ -265,7 +265,7 @@ In this presentation, Priya Wadhwa addresses the security of images running in y
 - The comprehensive demo of the entire chain, from image generation (based on nginx and scanned by Trivy, with the scan result attested in the registry) to its eviction in the cluster, is very convincing.
 - However, the question of the validity period of vulnerability scanning is not addressed. Nevertheless, Priya already provides insights by mentioning SBOM instead of the scan result. This is a topic we extensively covered in our talk [How to protect yourself from a “Supply Chain Attack”?](https://www.sokube.io/en/blog/how-to-protect-yourself-from-a-supply-chain-attack-en) at DevOps D-Days 2022.
 
-<span style="display:block;text-align:center">![](/_images/036/003_sigstore.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_sigstore.webp)</span>
     
 ### Talk: Closing the Developer Experience Gap of your Container Platforms
 #### Speaker: [Timo Salm](https://www.linkedin.com/in/timo-salm-8779a680/)
@@ -337,11 +337,10 @@ int hello(void *ctx){
 - **Tetragon** is also capable of detecting and blocking suspicious actions by sending a termination signal (**sigkill**) to immediately stop malicious activities.
 
 ### Cocktail
-<span style="display:block;text-align:center">![](/_images/036/003_apero.webp)</span>
+<span style="display:block;text-align:center">![](/_images/036/036_apero.webp)</span>
 
 ## Conclusion
 
 The **KCD Zurich** event was exceptional, where numerous experts and professionals shared their experience and knowledge on the latest trends in containerization and Kubernetes. With the high quality of the talks, we learned a lot about container security, compliance policy implementation, developer experience enhancement, eBPF, and much more. We hope this summary has been useful to our readers, and we look forward to coming back for the next **KCD** event.
 
-![Leonie](/_images/036/003_leonie.webp)
-
+![Leonie](/_images/036/036_leonie.webp)
